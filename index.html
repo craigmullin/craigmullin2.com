@@ -4,11 +4,23 @@
     <meta charset="UTF-8" />
     <title>externalStyle.html</title>
     <link rel="stylesheet" type="text/css" href="styles/my.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="scripts/my.js"></script>
+    <!-- <script>
+      $(function() {
+        var randomColor = Math.floor(Math.random() * 16777215).toString(16)
+
+        $('#background-text').css({
+          color: '#' + randomColor + ';',
+        })
+      })
+    </script> -->
   </head>
   <body>
+    <h1 id="background-text" font-color="function()">C</h1>
     <h1 id="header">Craig Mullin</h1>
     <h2 id="subheader">full-stack software developer</h2>
-    <div class="parallax"> </div>
+    <div class="parallax"></div>
     <div class="main">
       <p>
         This for paragraphs, body, and header 1.

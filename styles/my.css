@@ -13,14 +13,31 @@ h1 {
   height: 1000px;
   background-color: white;
   font-size: 24px;
+  z-index: 1000;
+}
+
+#background-text {
+  position: fixed;
+  width: 800px;
+  height: 1200px;
+  top: 0;
+  left: 40%;
+  z-index: -1;
+  margin-top: -320px; /* Negative half of height. */
+  margin-left: -250px; /* Negative half of width. */
+  font-family: 'Bodoni MT Black', serif;
+  font-size: 1400px;
+  /* color: orange; */
+  /* color: Math.floor(Math.random()*16777215).toString(16); */
 }
 
 #header {
   position: absolute;
+  /* z-index: 1000; */
   z-index: 1000;
   top: 375px;
-  left: 570px;
-  color: gray;
+  left: 590px;
+  color: darkgray;
   /* font-weight: bold; */
   font-family: Garamond, serif;
   font-size: 72px;
@@ -30,8 +47,8 @@ h1 {
   position: absolute;
   z-index: 1000;
   top: 400px;
-  left: 880px;
-  color: gray;
+  left: 905px;
+  color: darkgray;
   padding: 0 0 0 100px;
   /* font-weight: bold; */
   font-family: OCR A Extended, serif;
@@ -40,7 +57,7 @@ h1 {
 
 .parallax {
   /* The image used */
-  background-image: url('../assets/c.jpg');
+  /* background-image: url('../assets/c.jpg'); */
 
   /* Set a specific height */
   height: 100%;
@@ -50,13 +67,4 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   /* background-size: cover; */
-}
-
-.img {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: 'FlipH';
 }
