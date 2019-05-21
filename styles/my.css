@@ -10,10 +10,22 @@ h1 {
 }
 
 .main {
+  position: relative;
+  text-align: center;
+  padding: 50px;
   height: 1000px;
   background-color: white;
   font-size: 24px;
   z-index: 1000;
+  font-family: 'Book Antiqua', serif;
+  color: slategray;
+}
+
+.title {
+  text-align: center;
+  padding: 0 0 0 50px;
+  font-style: bold;
+  font-size: 36px;
 }
 
 #background-text {
