@@ -35,11 +35,12 @@ h1 {
   top: 0;
   left: 40%;
   z-index: -1;
-  text-shadow: 12px 12px 18px darkgray;
+  text-shadow: 22px 22px 28px slategray;
   margin-top: -320px; /* Negative half of height. */
   margin-left: -250px; /* Negative half of width. */
   /* font-family: 'Bodoni MT Black', serif; */
   font-family: 'Book Antiqua', serif;
+  /* opacity: 0.5; */
   /* font-family: 'Castellar', serif; */
   /* font-family: 'Colona MT', serif; */
   /* font-family: 'Levenim MT', serif; */
@@ -52,7 +53,9 @@ h1 {
   /* z-index: 1000; */
   z-index: 1000;
   top: 375px;
-  left: 590px;
+  /* left: 590px; */
+  left: 765px;
+  /* text-align: center; */
   color: white;
   /* font-weight: bold; */
   font-family: Garamond, serif;
@@ -64,25 +67,28 @@ h1 {
 #subheader {
   position: absolute;
   z-index: 1000;
-  top: 400px;
-  left: 905px;
-  color: gray;
+  top: 495px;
+  /* left: 905px; */
+  left: 610px;
+  color: lightgray;
   padding: 0 0 0 100px;
   /* font-weight: bold; */
-  font-family: OCR A Extended, serif;
-  font-size: 48px;
+  font-family: 'Century Gothic', serif;
+  font-size: 28px;
+  /* font-style: italic; */
+  letter-spacing: 15px;
 }
 
 .parallax {
   /* The image used */
-  /* background-image: url('../assets/c.jpg'); */
-
+  /* background-image: url('../assets/sky-bright.jpg'); */
+  background-image: url('../assets/record.jpg');
   /* Set a specific height */
   height: 100%;
-
+  background-size: 2000px 1000px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   /* background-size: cover; */
 }

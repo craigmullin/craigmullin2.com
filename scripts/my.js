@@ -6,14 +6,14 @@ $(function cColor() {
   var randomColor2 = colorArray[Math.floor(Math.random() * colorArray.length)]
 
   $('#background-text').css({
-    color: randomColor,
-    // color: '#ffcb35',
-    //color: 'orange',
+    // color: randomColor,
+    //color: '#ffcb35',
+    color: 'navy',
   })
   $('.title').css({
-    color: randomColor2,
+    //color: randomColor2,
     // color: '#ffcb35',
-    //color: 'orange',
+    color: 'redorange',
   })
 })
 
