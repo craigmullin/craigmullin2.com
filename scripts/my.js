@@ -7,13 +7,13 @@ $(function cColor() {
 
   $('#background-text').css({
     // color: randomColor,
-    //color: '#ffcb35',
-    color: 'navy',
+    // color: '#ffcb35',
+    color: 'orange',
   })
   $('.title').css({
-    //color: randomColor2,
+    // color: randomColor2,
     // color: '#ffcb35',
-    color: 'redorange',
+    color: 'orange',
   })
 })
 
