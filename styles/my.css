@@ -7,6 +7,7 @@ html {
 h1 {
   color: navy;
   /* margin-left: 20px; */
+  font-size: 100vw;
 }
 
 .main {
@@ -26,6 +27,10 @@ h1 {
   padding: 0 0 0 50px;
   font-style: bold;
   font-size: 36px;
+}
+
+#logo {
+  color: orange;
 }
 
 #background-text {
@@ -53,8 +58,8 @@ h1 {
   /* z-index: 1000; */
   z-index: 1000;
   top: 375px;
-  /* left: 590px; */
-  left: 765px;
+  left: 600px;
+  /* left: 765px; */
   /* text-align: center; */
   color: white;
   /* font-weight: bold; */
@@ -82,7 +87,7 @@ h1 {
 .parallax {
   /* The image used */
   /* background-image: url('../assets/sky-bright.jpg'); */
-  background-image: url('../assets/record.jpg');
+  /* background-image: url('../assets/record.jpg'); */
   /* Set a specific height */
   height: 100%;
   background-size: 2000px 1000px;
